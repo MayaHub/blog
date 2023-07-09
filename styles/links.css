@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: #FBF5F3;
+}
+
+a:hover {
+    background-color: #9882ac;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 5px solid #73648a;
+}
+
+button {
+    background-color: #453750;
+}
+
+button:hover {
+    background-color: #9882ac;
+    font-weight: bold;
+}

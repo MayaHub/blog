@@ -1,0 +1,45 @@
+@import url(shared.css);
+@import url(links.css);
+@import url(card.css);
+@import url(blog-media.css);
+
+header, footer, .card {
+    border: 5px solid #73648a;
+    background-color: #453750;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.ftr-soc, .nav-link {
+    border: 5px solid #73648a;
+    color: #FBF5F3;
+    border-radius: 30px;
+    padding: 10px 15px;
+}

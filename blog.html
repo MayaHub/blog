@@ -13,30 +13,45 @@
     <header>
         <nav>
             <ul class="nav-ul">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="nav-link" href="/blog.html">Home</a></li>
+                <li><a class="nav-link" href="pages/post.html">Blog</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="main">
-            <div class="card">
-                <img src="https://picsum.photos/id/26/200/100" alt="various items on desk">
-                <button>
-                    <a href="post.html">This is What Happened...</a>
-                </button>
+            <div class="cards">
+                <div class="card" id="card-one">
+                    <img src="https://picsum.photos/id/26/200/100" alt="various items on desk">
+                    <div class="container">
+                        <h2>Story Title</h2>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <q>Perferendis explicabo nam a,
+                            assumenda tempora placeat.</q></p>
+                        <a class="nav-link text" href="/pages/post.html">Click here to read more</a>
+                    </div>
+                </div>
+
+                <div class="card" id="card-two">
+                    <img src="https://picsum.photos/id/26/200/100" alt="various items on desk">
+                    <div class="container">
+                        <h2>Story Title</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis explicabo nam a,
+                            assumenda tempora placeat.</p>
+                        <a class="nav-link text" href="/pages/post.html">Click here to read more</a>
+                    </div>
+                </div>
             </div>
+
         </section>
     </main>
 
     <footer>
-        <p>Copyright 2023</p>
-        <a href="https://www.twitter.com">Twitter</a>
-        <a href="https://www.facebook.com">Facebook</a>
-        <a href="https://www.instagram.com">Instagram</a>
+        <a class="ftr-soc" href="https://www.twitter.com">Twitter</a>
+        <a class="ftr-soc" href="https://www.facebook.com">Facebook</a>
+        <a class="ftr-soc" href="https://www.instagram.com">Instagram</a>
     </footer>
 
 </body>

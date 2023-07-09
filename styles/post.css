@@ -1,0 +1,67 @@
+@import url(shared.css);
+@import url(links.css);
+@import url(post-media.css);
+
+header {
+    border: 5px solid #73648a;
+    background-color: #453750;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+    "mc ab";
+    margin: 20px;
+}
+
+.article-img {
+    width: 90%;
+    border-radius: 5%;
+}
+
+.main-content, .about {
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid #73648a;
+    background-color: #453750;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt-img {
+    width: 90%;
+}
+
+.abt-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.soc {
+    margin: 5px;
+}
