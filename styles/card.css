@@ -12,12 +12,8 @@
     width: auto;
 }
 
-/* card click here text */
+/* card 'click here' text */
 .text {
     margin-top: 20px;
     align-self: center;
-}
-
-h2 {
-    text-decoration: underline;
 }
